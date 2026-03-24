@@ -1,0 +1,7 @@
+Neki usputni zaključci koje ćemo koristiti u komparativnoj analizi : 
+
+1. kNN je posebno osetljiv na neuravnotežene klase jer glasa po većini k suseda — a u prostoru obeležja dominiraju No_Disease uzorci, pa će oni skoro uvek "pobediti" glasanjem.
+Pored toga, kNN sa visokom dimenzionalnošću pati od curse of dimensionality — rastojanja između uzoraka postaju sve sličnija u visokim dimenzijama, pa generalno metode bazirane na udaljenosti gube smisao.
+Očekujemo da će Random Forest i SVM dati znatno bolje rezultate.
+
+2. 
